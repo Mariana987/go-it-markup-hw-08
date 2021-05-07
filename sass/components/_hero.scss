@@ -55,7 +55,7 @@
 @media screen and (min-width:768px) {
     .hero__overlay{
        background-image: linear-gradient(to right rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),
-    url(/images/Header-desktop.jpg); 
+    url(../images/Header-desktop.jpg); 
     }
     @media (min-resolution:2dppx) {
         .hero__overlay{

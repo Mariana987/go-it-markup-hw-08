@@ -494,8 +494,8 @@ button {
   margin-left: auto;
   margin-right: auto;
   height: 400px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(/images/Header-mobile.jpg);
-  background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/Header-mobile.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/Header-mobile.jpg);
+  background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Header-mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -509,36 +509,36 @@ button {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(/images/Header-mobile@2x.jpg);
-    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/Header-mobile@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/Header-mobile@2x.jpg);
+    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Header-mobile@2x.jpg);
   }
 }
 
 @media screen and (min-width: 480px) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(/images/Header-tablet.jpg);
-    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/Header-tablet.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/Header-tablet.jpg);
+    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Header-tablet.jpg);
   }
 }
 
 @media screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(/images/Header-tablet@2x.jpg);
-    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/Header-tablet@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/Header-tablet@2x.jpg);
+    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Header-tablet@2x.jpg);
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(/images/Header-desktop.jpg);
-    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/Header-desktop.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/Header-desktop.jpg);
+    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Header-desktop.jpg);
   }
 }
 
 @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(/images/Header-desktop@2x.jpg);
-    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/Header-desktop@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/Header-desktop@2x.jpg);
+    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Header-desktop@2x.jpg);
   }
 }
 
