@@ -1391,8 +1391,8 @@ button {
   left: 3.5%;
   -webkit-transform: translateY(-30%);
           transform: translateY(-30%);
-  -webkit-transition: fill var(--animation-speed) var(--timing-function);
-  transition: fill var(--animation-speed) var(--timing-function);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form__checkbox {
