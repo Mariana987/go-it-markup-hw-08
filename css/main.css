@@ -148,6 +148,7 @@ button {
 @media screen and (max-width: 767px) {
   .mobile-menu {
     position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: -webkit-box;
@@ -483,7 +484,7 @@ button {
   padding-bottom: 118px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1190px) {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
@@ -494,14 +495,14 @@ button {
   margin-left: auto;
   margin-right: auto;
   height: 400px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/Header-mobile.jpg);
-  background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Header-mobile.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url("../images/Header-mobile .jpg");
+  background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/Header-mobile .jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1190px) {
   .hero__overlay {
     height: 600px;
   }
@@ -509,36 +510,36 @@ button {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/Header-mobile@2x.jpg);
-    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Header-mobile@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url("../images/Header-mobile@2x.jpg");
+    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/Header-mobile@2x.jpg");
   }
 }
 
 @media screen and (min-width: 480px) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/Header-tablet.jpg);
-    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Header-tablet.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(/images/Header-tablet.jpg);
+    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/Header-tablet.jpg);
   }
 }
 
 @media screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/Header-tablet@2x.jpg);
-    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Header-tablet@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(/images/Header-tablet@2x.jpg);
+    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/Header-tablet@2x.jpg);
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/Header-desktop.jpg);
-    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Header-desktop.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(/images/Header-desktop.jpg);
+    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/Header-desktop.jpg);
   }
 }
 
 @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero__overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/Header-desktop@2x.jpg);
-    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Header-desktop@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(/images/Header-desktop@2x.jpg);
+    background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/Header-desktop@2x.jpg);
   }
 }
 
@@ -639,7 +640,6 @@ button {
 }
 
 .description__title {
-  text-align: center;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.4;
@@ -647,6 +647,12 @@ button {
   letter-spacing: 0.03em;
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 766px) {
+  .description__title {
+    text-align: center;
+  }
 }
 
 .description__info {
@@ -970,6 +976,7 @@ button {
 @media screen and (min-width: 1200px) {
   .footer__div {
     margin-right: 70px;
+    text-align: start;
   }
 }
 
@@ -985,6 +992,7 @@ button {
 @media screen and (min-width: 1200px) {
   .social-footer {
     padding-top: 72px;
+    text-align: start;
   }
 }
 
@@ -1110,7 +1118,18 @@ button {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
-  text-align: center;
+}
+
+@media screen and (max-width: 1190px) {
+  .footer-form__title {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-form__title {
+    margin-left: 93px;
+  }
 }
 
 .footer-form__input {
@@ -1311,6 +1330,7 @@ button {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 12px;
+  margin-top: 0;
 }
 
 .modal-form__field {
@@ -1337,7 +1357,6 @@ button {
   padding-bottom: 12px;
   padding-left: 42px;
   margin-top: 4px;
-  margin-bottom: 10px;
   font-size: 14px;
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1389,8 +1408,6 @@ button {
   position: absolute;
   top: 50%;
   left: 3.5%;
-  -webkit-transform: translateY(-30%);
-          transform: translateY(-30%);
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1413,18 +1430,6 @@ button {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-  }
-}
-
-@media screen and (min-width: 320px) {
-  .modal-form__checklabel {
-    padding-left: 20px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .modal-form__checklabel {
-    padding-left: 24px;
   }
 }
 
@@ -1455,7 +1460,6 @@ button {
 
 .modal-form__link {
   color: #2196F3;
-  margin-left: 5px;
 }
 
 .modal-form___send-button {
@@ -1656,7 +1660,7 @@ textarea {
   display: inline-block;
   width: 100%;
   height: 100%;
-  padding: 64px 24px;
+  padding: 77px 24px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -1677,6 +1681,18 @@ textarea {
   opacity: 1;
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__hover-text {
+    padding: 49px 24px;
+  }
+}
+
+@media screen and (min-width: 1190px) {
+  .portfolio__hover-text {
+    padding: 64px 24px;
+  }
 }
 
 .portfolio__overlay {

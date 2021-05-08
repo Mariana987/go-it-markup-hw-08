@@ -38,6 +38,7 @@
       }
        @media screen and (min-width:1200px){
      margin-right: 70px;
+     text-align: start;
    }
   }
 
@@ -53,6 +54,7 @@
       align-items: center;
         @media screen and (min-width:1200px){
      padding-top: 72px;
+     text-align: start;
    }
   }
 
@@ -147,8 +149,11 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: $secondary-text-color;
 margin-bottom: 20px;
-
-      text-align: center;
+@media screen and (max-width:1190px){   
+      text-align: center;}
+      @media screen and (min-width:1200px){
+        margin-left: 93px;
+      }
  
 }
 .footer-form__input{

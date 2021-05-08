@@ -1,8 +1,5 @@
 
 
-
-
-
 .header {
   position: relative;
   border-bottom: 1px solid #ECECEC;
@@ -31,15 +28,13 @@
   }
 }
 
-
 .logo__part {
   color: $title-text-color;
 }
-
-
 .mobile-menu {
   @media screen and (max-width: 767px) {
     position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
